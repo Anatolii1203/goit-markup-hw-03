@@ -4,6 +4,10 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1158px;
+}
+
 .btn-os {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
