@@ -183,3 +183,16 @@ body {
 .img {
   display: block;
 }
+
+.exercise-container {
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+}
+
+.link-exercise-container {
+  padding-left: 156px;
+  padding-top: 101.5px;
+  padding-right: 1169px;
+  padding-bottom: 189.5px;
+}
