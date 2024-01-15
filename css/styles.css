@@ -4,8 +4,10 @@ body {
   background-color: #ffffff;
 }
 
-.container {
-  width: 1158px;
+.main-page-container {
+  width: 1440px;
+  height: 3300px;
+  background: #fff;
 }
 
 .btn-os {
@@ -50,8 +52,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .wort-exercise {
@@ -63,7 +63,6 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  max-width: 264px;
 }
 
 .tasks-two {
@@ -183,8 +182,4 @@ body {
 
 .img {
   display: block;
-}
-
-.exercise-container {
-  padding: 100px 0;
 }
