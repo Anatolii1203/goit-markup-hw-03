@@ -19,6 +19,13 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .btn-os:hover {
   background-color: #404bbf;
@@ -29,6 +36,7 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  max-width: 496px;
 }
 
 .hero-fsb {
