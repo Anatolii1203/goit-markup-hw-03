@@ -4,12 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-.main-page-container {
-  width: 1440px;
-  height: 3300px;
-  background: #fff;
-}
-
 .btn-os {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -195,7 +189,7 @@ body {
 .img {
   display: block;
 }
-.container {
+.container-exercise {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0%;
