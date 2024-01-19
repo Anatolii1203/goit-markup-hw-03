@@ -129,6 +129,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -152,6 +153,7 @@ body {
 
 .address-link {
   font-style: normal;
+  display: flex;
 }
 
 .nav-link {
@@ -161,6 +163,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .nav-link:hover {
@@ -173,10 +176,13 @@ body {
 
 .nav-link-ul {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 .address-link-ul {
   list-style: none;
+  gap: 40px;
 }
 
 .tasks-two-ul {
@@ -234,4 +240,19 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.main-page {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.main-page-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.main-page-nav {
+  display: flex;
+  align-items: center;
 }
