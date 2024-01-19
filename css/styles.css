@@ -235,7 +235,3 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-.tasks-two-ul {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
