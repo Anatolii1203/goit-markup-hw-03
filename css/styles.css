@@ -20,6 +20,10 @@ body {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .btn-os:hover {
   background-color: #404bbf;
@@ -36,10 +40,14 @@ body {
 .hero-fsb {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  text-align: center;
+  margin-top: 188px;
+  margin-bottom: 292px;
+  margin-left: 472px;
+  margin-right: 472px;
 }
 
 .exercise {
@@ -57,7 +65,10 @@ body {
   color: #4d5ae5;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 17.5px;
+  margin-top: 101.5px;
+  margin-left: 156px;
+  margin-right: 1169px;
 }
 
 .wort-exercise {
@@ -69,6 +80,9 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  margin-bottom: 100px;
+  margin-left: 156px;
+  margin-right: 1020px;
 }
 
 .tasks {
@@ -221,6 +235,9 @@ body {
   border: none;
   min-width: 169px;
   display: block;
+  margin-bottom: 188px;
+  margin-left: 636px;
+  margin-right: 635px;
 }
 
 .tasks-container {
