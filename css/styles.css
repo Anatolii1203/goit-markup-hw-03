@@ -203,6 +203,8 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .team-list-ul {
@@ -219,8 +221,8 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0%;
-  width: 1440px;
+  margin: 0 ato;
+  width: 1158px;
 }
 .container-hero-fsb {
   display: inline-flex;
@@ -242,8 +244,6 @@ body {
 
 .tasks-container {
   flex-basis: calc((100% - 3 * 24px) / 4);
-  display: flex;
-  gap: 24px;
 }
 
 .visually-hidden {
