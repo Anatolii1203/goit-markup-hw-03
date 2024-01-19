@@ -71,12 +71,17 @@ body {
   letter-spacing: 0.02em;
 }
 
+.tasks {
+  padding: 120px 0 120px;
+}
+
 .tasks-two {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .tasks-text {
@@ -176,6 +181,8 @@ body {
 
 .tasks-two-ul {
   list-style: none;
+  display: flex;
+  gap: 24px;
 }
 
 .team-list-ul {
@@ -208,4 +215,8 @@ body {
   border: none;
   min-width: 169px;
   display: block;
+}
+
+.tasks-container {
+  width: calc((100% - 72px) / 4);
 }
