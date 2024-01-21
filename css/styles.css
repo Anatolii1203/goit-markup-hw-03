@@ -69,6 +69,7 @@ body {
   margin-top: 101.5px;
   margin-left: 156px;
   margin-right: 1169px;
+  margin-bottom: 16px;
 }
 
 .wort-exercise {
@@ -127,6 +128,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-text {
@@ -213,6 +215,10 @@ body {
 
 .portfolio-ul {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .img {
@@ -272,4 +278,13 @@ body {
 .main-page-nav {
   display: flex;
   align-items: center;
+}
+
+.portfolio-sectoin {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-container {
+  width: calc((100% - 48px) / 3);
 }
