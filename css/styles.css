@@ -216,6 +216,8 @@ body {
   display: flex;
   gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
+  margin: 0;
+  padding: 0;
 }
 
 .team-list-one {
@@ -247,6 +249,8 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio-container {
