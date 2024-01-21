@@ -206,6 +206,7 @@ body {
 .address-link-ul {
   list-style: none;
   gap: 40px;
+  display: flex;
 }
 
 .tasks-two-ul {
@@ -241,7 +242,7 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 ato;
+  margin: 0 auto;
   width: 1158px;
 }
 .container-hero-fsb {
