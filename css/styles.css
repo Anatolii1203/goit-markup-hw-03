@@ -262,7 +262,6 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -314,4 +313,8 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   width: 1158px;
+}
+
+.portfolio-h3 {
+  margin-bottom: 8px;
 }
