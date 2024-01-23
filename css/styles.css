@@ -162,6 +162,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
 }
 
 .tasks-two {
@@ -206,6 +207,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .team-list-ul {
@@ -312,6 +314,7 @@ img {
 
 .tasks-text-one {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-list-four {
