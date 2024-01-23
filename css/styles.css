@@ -170,8 +170,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
   margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .tasks-two-ul {
@@ -307,6 +307,7 @@ img {
 
 .tasks-two-one {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .tasks-text-one {
