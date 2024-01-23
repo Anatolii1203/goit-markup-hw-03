@@ -8,7 +8,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.main-page-container {
+.main-page-container .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
@@ -228,8 +228,7 @@ body {
 }
 
 .portfolio-sectoin {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .title-four {
@@ -312,4 +311,8 @@ img {
 
 .tasks-text-one {
   text-align: center;
+}
+
+.team-list-four {
+  margin-bottom: 72px;
 }
