@@ -10,6 +10,8 @@ body {
 
 .top-page {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main-page-nav {
@@ -27,6 +29,7 @@ body {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
+  display: block;
 }
 
 .logo-studio {
@@ -37,6 +40,8 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -66,6 +71,8 @@ body {
   list-style: none;
   gap: 40px;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -178,6 +185,7 @@ body {
 .team {
   background-color: #ffffff;
   padding: 120px 0 120px 0;
+  background: #f4f4fd;
 }
 
 .team-list {
@@ -189,6 +197,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .team-list-ul {
@@ -209,8 +218,14 @@ body {
 
 .container-tasks-text {
   padding: 32px 0 32px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+  color: #434455;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 .section-four {
@@ -250,6 +265,7 @@ body {
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 .exercise {
@@ -280,6 +296,7 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin: 0;
 }
 
 img {
@@ -315,8 +332,10 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .portfolio {
   margin-bottom: 8px;
+  margin-top: 0;
 }
