@@ -52,6 +52,7 @@ body {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover {
